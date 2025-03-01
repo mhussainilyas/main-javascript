@@ -20,6 +20,9 @@
 // Declaring Variables:
 // --------------------
 
+// Redeclaration allowed in "var"
+// var myName = "Muhammad Hussain"; // work properly
+
 var myName, age, department;
 myName = "Hussain <br>";
 age = 19;
