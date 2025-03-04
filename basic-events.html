@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Events</title>
+    <style>
+      div {
+        width: 300px;
+        height: 200px;
+        padding: 10px;
+        overflow: auto;
+        margin-bottom: 30px;
+        border: 3px solid red;
+      }
+    </style>
+    <script>
+      function sayHello() {
+        alert("Assalam-o-alaikum!!!");
+      }
+    </script>
+  </head>
+
+  <!-- Keyboard Events -->
+  <!-- <body onkeydown="sayHello()"> -->
+  <!-- <body onkeypress="sayHello()"> -->
+  <!-- <body onkeyup="sayHello()"> -->
+
+  <!-- Window Events -->
+  <!-- <body onresize="sayHello()"> -->
+  <!-- <body onload="sayHello()"> -->
+  <body onunload="sayHello()">
+    <!-- Scroll Event -->
+    <div onscroll="sayHello()">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto quasi
+      rerum fugit commodi aspernatur perspiciatis, a ducimus magnam earum
+      quibusdam provident vitae veniam! Ut neque soluta vel quaerat dicta,
+      repellendus officia aliquid molestias nostrum voluptates mollitia
+      deleniti, facere nemo, perferendis in ducimus rerum debitis vitae nisi ex
+      quibusdam. Illum reprehenderit enim adipisci, facilis error doloremque
+      voluptatum laudantium, unde accusamus voluptatibus dignissimos quae,
+      assumenda accusantium nobis at tempora animi sit velit consequuntur
+      praesentium veniam. Iste itaque voluptatum reiciendis obcaecati similique!
+      Necessitatibus, praesentium repellat doloribus nisi voluptatibus ducimus
+      suscipit quisquam cupiditate at ratione deserunt ab iusto, corporis, minus
+      eum et nemo.
+    </div>
+
+    <!-- Mouse Events -->
+    <button onclick="sayHello()">Click me</button><br /><br />
+    <span ondblclick="sayHello()">please double click here.</span><br /><br />
+    <span oncontextmenu="sayHello()">please right click here.</span><br /><br />
+    <span onmouseenter="sayHello()">please hover here.</span><br /><br />
+    <span onmouseout="sayHello()">please hover and then out from here.</span
+    ><br /><br />
+    <span onmousedown="sayHello()">please click down here.</span><br /><br />
+    <span onmouseup="sayHello()">please click up here.</span><br /><br />
+
+    <!-- Js Link -->
+    <script src="JavaScript/basic-events.js"></script>
+  </body>
+</html>
